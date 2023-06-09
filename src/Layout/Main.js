@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
+import Navbar from '../Pages/Home/Home/Shared/Navbar/Navbar';
 
 const Main = () => {
     return (
@@ -11,15 +12,13 @@ const Main = () => {
                     <Outlet></Outlet>
 
                     <label htmlFor="developer-drawer" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
+
                 </div>
                 <div className="drawer-side">
                     <label htmlFor="developer-drawer" className="drawer-overlay"></label>
-                    <ul className="menu p-4 w-80 h-full bg-black text-white">
-                        {/* Sidebar content here */}
-                        <li><Link>Sidebar Item 1</Link></li>
-                        <li><Link>Sidebar Item 2</Link></li>
-                    </ul>
-
+                    <nav className="p-4 w-80 h-full bg-black">
+                        <Navbar></Navbar>
+                    </nav>
                 </div>
             </div>
         </>
