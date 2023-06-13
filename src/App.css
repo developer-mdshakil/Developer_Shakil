@@ -105,3 +105,25 @@
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
+
+.card-design {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-design:hover {
+  transform: translateY(-0.35rem);
+  background-color: black;
+  color: white !important;
+  border-radius: 1rem;
+}
+
+.more-btn {
+  visibility: none;
+  opacity: 0;
+}
+
+.card-design:hover .more-btn {
+  opacity: 1;
+  visibility: visible;
+  color: red;
+}
