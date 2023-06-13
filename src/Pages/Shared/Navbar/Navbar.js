@@ -13,9 +13,9 @@ const Navbar = () => {
         <li className='pt-3 pb-3'><Link className='hover:text-blue-600 flex' to="/contact"><FaPhone className='relative top-1 mr-2 text-lg' />CONTACT</Link></li>
     </React.Fragment>
     const socialMenu = <React.Fragment>
-        <li className='w-12 h-12 bg-stone-950 flex justify-center items-center text-2xl shadow shadow-slate-800 rounded-lg hover:bg-red-600 hover:transition-all hover:-translate-y-1'><Link to='https://www.facebook.com/mdshakil.mahamudjoy.3?mibextid=ZbWKwL'><FaFacebook /></Link></li>
-        <li className='w-12 h-12 bg-stone-950 ml-4 flex justify-center items-center text-2xl shadow shadow-slate-800 rounded-lg hover:bg-red-600 hover:transition-all hover:-translate-y-1'><Link to='https://www.linkedin.com/in/md-shakil-miah-b1644127a/'><FaLinkedin /></Link></li>
-        <li className='w-12 h-12 bg-stone-950 ml-4 flex justify-center items-center text-2xl shadow shadow-slate-800 rounded-lg hover:bg-red-600 hover:transition-all hover:-translate-y-1'><Link to='https://github.com/developer-mdshakil'><FaGithub /></Link></li>
+        <li className='w-12 h-12 bg-stone-950 flex justify-center items-center text-2xl shadow shadow-slate-800 rounded-lg common-animation'><Link to='https://www.facebook.com/mdshakil.mahamudjoy.3?mibextid=ZbWKwL'><FaFacebook /></Link></li>
+        <li className='w-12 h-12 bg-stone-950 ml-4 flex justify-center items-center text-2xl shadow shadow-slate-800 rounded-lg common-animation'><Link to='https://www.linkedin.com/in/md-shakil-miah-b1644127a/'><FaLinkedin /></Link></li>
+        <li className='w-12 h-12 bg-stone-950 ml-4 flex justify-center items-center text-2xl shadow shadow-slate-800 rounded-lg common-animation'><Link to='https://github.com/developer-mdshakil'><FaGithub /></Link></li>
     </React.Fragment>
     return (
         <div className='ml-14'>

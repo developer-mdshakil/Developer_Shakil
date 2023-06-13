@@ -59,3 +59,41 @@
   left: 0;
   z-index: -1;
 }
+
+.common-animation {
+  transition: all .5s ease-in-out;
+}
+
+.common-animation:hover {
+  transform: translateY(-0.45rem);
+  background-color: blue;
+  color: white;
+}
+
+.btn-affter {
+  position: relative;
+  color: red;
+  z-index: 1;
+}
+
+.btn-affter::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 0.75rem;
+  z-index: -1;
+  transition: all .7s ease-in-out;
+}
+
+.btn-affter:hover::after {
+  width: 100%;
+  color: white !important;
+  background-color: blue;
+}
+
+.btn-affter:hover {
+  color: white;
+}
