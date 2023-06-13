@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import Navbar from '../Pages/Home/Home/Shared/Navbar/Navbar';
+import Navbar from '../Pages/Shared/Navbar/Navbar';
 
 const Main = () => {
     return (
         <>
             <div className="drawer lg:drawer-open">
                 <input id="developer-drawer" type="checkbox" className="drawer-toggle" />
-                <div className="drawer-content flex flex-col items-center justify-center">
+                <div className="drawer-content">
 
                     <Outlet></Outlet>
 
