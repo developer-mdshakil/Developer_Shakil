@@ -23,8 +23,8 @@ const Hero = () => {
                         />
                     </span>
                 </h4>
-                <div className='text-center mt-8'>
-                    <button className="btn btn-active btn-neutral hover:-translate-y-1 hover:transition-transform text-red-500 shadow-slate-500 shadow-sm text-lg mr-4">Conact Me</button>
+                <div className='text-center mt-24'>
+                    <button className="btn btn-active btn-neutral hover:-translate-y-1 hover:transition-transform text-red-500 shadow-slate-600 shadow-sm text-lg mr-4">Conact Me</button>
                 </div>
             </div>
         </div>
