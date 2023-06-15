@@ -66,8 +66,7 @@
 
 .common-animation:hover {
   transform: translateY(-0.45rem);
-  background-color: blue;
-  color: white;
+  background-color: black;
 }
 
 .btn-affter {

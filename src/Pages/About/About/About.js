@@ -17,7 +17,7 @@ const About = () => {
                     <li className='list-none mt-6 mb-6'><Link className='flex text-lg'><span className='text-blue-600 text-xl mr-2 relative top-1'><FaLocationArrow /></span>Sayedpur, Mirzapur, Tangail, Dhaka, Bangladesh</Link></li>
                     <div className='mt-12 flex'>
                         <Link className='btn-affter bg-black shadow-md shadow-slate-900 w-42 py-4 px-8 text-xl flex rounded-xl mt'>Contact Me<FaArrowRight className='relative top-2 ml-1' /></Link>
-                        <Link className='btn-affter bg-black shadow-md shadow-slate-900 w-40 py-4 px-8 text-xl flex rounded-xl ml-6'>Hire Me<FaArrowRight className='relative top-2 ml-1' /></Link>
+                        <Link className='btn-affter bg-black shadow-md shadow-slate-900 w-56 py-4 px-8 text-xl flex rounded-xl ml-6'>Dawonload CV<FaArrowRight className='relative top-2 ml-1' /></Link>
                     </div>
                 </div>
                 <div className='w-full flex justify-center items-center mt-16'>
