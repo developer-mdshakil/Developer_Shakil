@@ -3,6 +3,7 @@ import Hero from '../Hero/Hero';
 import About from '../../About/About/About';
 import Service from '../../Service/Service/Service';
 import Contact from '../../Contact/Contact/Contact';
+import Blog from '../../Blog/Blog/Blog';
 
 const Home = () => {
     return (
@@ -13,6 +14,9 @@ const Home = () => {
             </section>
             <section>
                 <Service></Service>
+            </section>
+            <section>
+                <Blog></Blog>
             </section>
             <section>
                 <Contact></Contact>
