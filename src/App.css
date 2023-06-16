@@ -161,3 +161,8 @@
   transform: scale(1.05);
   transition: all .5s ease-in-out;
 }
+
+.service-image {
+  width: 40rem;
+  height: 20rem;
+}

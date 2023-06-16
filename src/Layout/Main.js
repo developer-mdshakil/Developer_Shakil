@@ -15,7 +15,7 @@ const Main = () => {
 
                 </div>
                 <div className="drawer-side">
-                    <label htmlFor="developer-drawer" className="drawer-overlay"></label>
+                    <label htmlFor="developer-drawer"></label>
                     <nav className="p-4 w-80 h-full bg-black">
                         <Navbar></Navbar>
                     </nav>

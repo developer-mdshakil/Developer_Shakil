@@ -1,5 +1,5 @@
 import React from 'react';
-import contactHero from '../../../assets/Service-card/Development.avif';
+import contactHero from '../../../assets/Service-card/developer-vectors.avif';
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
