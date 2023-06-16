@@ -1,8 +1,14 @@
 import React from 'react';
 import contactHero from '../../../assets/Service-card/Development.avif';
 import { Link } from 'react-router-dom';
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Contact = () => {
+    const socialMenu = <React.Fragment>
+        <li className='w-12 h-12 bg-stone-950 flex justify-center items-center text-2xl shadow shadow-slate-800 rounded-lg common-animation'><Link to='https://www.facebook.com/mdshakil.mahamudjoy.3?mibextid=ZbWKwL'><FaFacebook /></Link></li>
+        <li className='w-12 h-12 bg-stone-950 ml-4 flex justify-center items-center text-2xl shadow shadow-slate-800 rounded-lg common-animation'><Link to='https://www.linkedin.com/in/md-shakil-miah-b1644127a/'><FaLinkedin /></Link></li>
+        <li className='w-12 h-12 bg-stone-950 ml-4 flex justify-center items-center text-2xl shadow shadow-slate-800 rounded-lg common-animation'><Link to='https://github.com/developer-mdshakil'><FaGithub /></Link></li>
+    </React.Fragment>
     return (
         <div className='bg-black ml-1 w-full h-full p-6 text-gray-500 '>
             {/* contact title here  */}
@@ -16,27 +22,33 @@ const Contact = () => {
                 <div className='hero-content'>
                     <div className='max-w-xl mr-4'>
                         {/* contact information  */}
-                        <div className="card card-compact w-full h-auto bg-stone-950 shadow-slate-900 shadow-sm">
-                            <figure className='pt-6 px-6'><img src={contactHero} className='rounded-xl' alt="Development" /></figure>
+                        <div className="card card-compact w-full bg-stone-950 shadow-slate-900 shadow-sm">
+                            <figure className='pt-6 px-6'><img src={contactHero} className='rounded-xl h-60 w-full' alt="Development" /></figure>
                             <div className="card-body">
                                 <h2 className="text-5xl text-white mt-2">Shakil Miah</h2>
                                 <h4 className='text-lg mt-2 mb-2'>Frontend Web Developer</h4>
-                                <p className='text-xl'>I am available for freelance work. <br /> Connect with me via and call in to my <br /> account.</p>
+                                <p className='text-xl mb-4'>I am available for freelance work. <br /> Connect with me via and call in to my <br /> account.</p>
                                 <ul>
                                     <li>
-                                        <span>Phone:</span>
-                                        <Link>+088 01792031534</Link>
+                                        <span className='text-lg'>Phone:</span>
+                                        <Link className='text-lg ml-2 contact-link'>+088 01792031534</Link>
                                     </li>
                                     <li>
-                                        <span>Email:</span>
-                                        <Link>developershakil.cmt1819@gmail.com</Link>
+                                        <span className='text-lg'>Email:</span>
+                                        <Link className='text-lg ml-2 contact-link'>developershakil.cmt1819@gmail.com</Link>
                                     </li>
                                 </ul>
+                                <div className="social-media text-white">
+                                    <h4 className='text-lg font-semibold mt-4 mb-4'>FIND WITH ME</h4>
+                                    <ul className='flex'>
+                                        {socialMenu}
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                     {/* send your problems  */}
-                    <div className='ml-4 bg-stone-950 shadow-slate-900 shadow-sm text-gray-500 p-4'>
+                    <div className='ml-4 w-full bg-stone-950 shadow-slate-900 shadow-sm text-gray-500 p-4'>
                         <div className='flex'>
                             <div className='mr-4'>
                                 <label htmlFor="" className='text-base'>YOUR NAME</label>
