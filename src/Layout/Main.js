@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import Navbar from '../Pages/Shared/Navbar/Navbar';
+import { FaBars, FaExpand } from 'react-icons/fa';
 
 const Main = () => {
+    const [isOpen, setIsopen] = useState(true);
+    const toggle = () => setIsopen(isOpen)
     return (
         <>
             <div className="drawer lg:drawer-open">
@@ -11,7 +14,12 @@ const Main = () => {
 
                     <Outlet></Outlet>
 
-                    <label htmlFor="developer-drawer" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
+                    <label htmlFor="developer-drawer" className="btn btn-primary drawer-button lg:hidden absolute top-0 right-0">
+                        <FaBars onClick={toggle} />
+                        {isOpen && <FaExpand />
+
+                        }
+                    </label>
 
                 </div>
                 <div className="drawer-side">

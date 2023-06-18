@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const JobSkillQuality = () => {
     return (
         <>
-            <div className='w-full shadow-gray-950 shadow-md text-white ml-14'>
+            <div className='w-full shadow-gray-950 shadow-md text-white lg:ml-14 mt-14 lg:mt-0'>
 
                 {/* Job Skill title */}
                 <div className='mb-14'>

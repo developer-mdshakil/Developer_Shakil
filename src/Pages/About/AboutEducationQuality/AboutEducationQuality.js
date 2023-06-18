@@ -5,7 +5,7 @@ import JobSkillQuality from './JobSkillQuality';
 const AboutEducationQuality = () => {
     return (
         <>
-            <div className='flex justify-between  p-6'>
+            <div className='flex lg:flex-row flex-col justify-between  p-6'>
                 {/* Educational Quality component here  */}
                 <EducationlQulity></EducationlQulity>
                 {/* job skill quality component here  */}

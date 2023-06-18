@@ -12,9 +12,9 @@ const Blog = () => {
                 <h5 className='text-base text-blue-600'>VISIT MY BLOG AND KEEP YOUR FEEDBACK</h5>
                 <h2 className='text-6xl font-bold text-blue-50 mt-4'>My Blog</h2>
             </div>
-            <div className='grid grid-cols-3'>
+            <div className='grid lg:grid-cols-3 md:grid-cols-1'>
                 {/* developer blog  */}
-                <div className="card w-96 bg-stone-950 hover:bg-black card-design shadow-slate-900 shadow-sm text-gray-500">
+                <div className="card w-96 md:w-full bg-stone-950 hover:bg-black card-design shadow-slate-900 shadow-sm text-gray-500">
                     <div className='pt-6 px-6'>
                         <figure><img src={developer} className='service-image image-animation' alt="developer blog image" /></figure>
                     </div>

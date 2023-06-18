@@ -3,7 +3,7 @@ import React from 'react';
 const ContactMessageFrom = () => {
     return (
         <>
-            <div className='ml-4 w-full bg-stone-950 shadow-slate-900 shadow-sm text-gray-500 p-4'>
+            <div className='ml-4 lg:mb-0 mb-12 w-full bg-stone-950 shadow-slate-900 shadow-sm text-gray-500 p-4'>
                 <div className='flex'>
                     <div className='mr-4'>
                         <label htmlFor="" className='text-base'>YOUR NAME</label>

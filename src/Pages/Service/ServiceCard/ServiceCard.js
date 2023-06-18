@@ -12,10 +12,10 @@ const ServiceCard = () => {
                 <figure><img src={developmentPhoto} className='service-image' alt="Album" /></figure>
                 <div className="card-body w-full relative">
                     <div>
-                        <h2 className="text-4xl font-semibold mb-6 text-white">Frontend Development</h2>
-                        <p className='m-0 p-0 max-w-lg text-lg'>Explain to you how all this mistaken idea of denouncing pleasure born and give you complete account the system.I throw myself down among the tall grass by the stream as Ilie close to the earth.I use to frontend developemt kit javaScript, react js, node js, express js, mongodb.</p>
+                        <h2 className="lg:text-4xl text-2xl font-semibold mb-6 text-white">Frontend Development</h2>
+                        <p className='m-0 p-0 lg:max-w-lg max-w-full text-lg'>Explain to you how all this mistaken idea of denouncing pleasure born and give you complete account the system.I throw myself down among the tall grass by the stream as Ilie close to the earth.I use to frontend developemt kit javaScript, react js, node js, express js, mongodb.</p>
                     </div>
-                    <div className='absolute right-0 top-32'>
+                    <div className='absolute lg:right-0 lg:top-32 -bottom-8'>
                         <button className="btn common-animation btn-active btn-neutral text-red-500 shadow-slate-600 shadow-sm text-lg mr-4">Conact Me</button>
                     </div>
                 </div>
@@ -26,10 +26,10 @@ const ServiceCard = () => {
                 <figure><img src={WebDevelopment} className='service-image' alt="Album" /></figure>
                 <div className="card-body w-full relative">
                     <div>
-                        <h2 className="text-4xl font-semibold mb-6 text-white">Web Development</h2>
+                        <h2 className="lg:text-4xl text-2xl font-semibold mb-6 text-white">Web Development</h2>
                         <p className='m-0 p-0 max-w-lg text-lg'>Explain to you how all this mistaken idea of denouncing pleasure born and give you complete account the system.I throw myself down among the tall grass by the stream as Ilie close to the earth.I use to frontend developemt kit javaScript, react js, node js, express js, mongodb.</p>
                     </div>
-                    <div className='absolute right-0 top-32'>
+                    <div className='absolute lg:right-0 lg:top-32 -bottom-8'>
                         <button className="btn common-animation btn-active btn-neutral text-red-500 shadow-slate-600 shadow-sm text-lg mr-4">Conact Me</button>
                     </div>
                 </div>
@@ -40,10 +40,10 @@ const ServiceCard = () => {
                 <figure><img src={webDesign} className='service-image' alt="Album" /></figure>
                 <div className="card-body w-full relative">
                     <div>
-                        <h2 className="text-4xl font-semibold mb-6 text-white">Web Development</h2>
+                        <h2 className="lg:text-4xl text-2xl font-semibold mb-6 text-white">Web Development</h2>
                         <p className='m-0 p-0 max-w-lg text-lg'>Explain to you how all this mistaken idea of denouncing pleasure born and give you complete account the system.I throw myself down among the tall grass by the stream as Ilie close to the earth.I use to frontend developemt kit javaScript, react js, node js, express js, mongodb.</p>
                     </div>
-                    <div className='absolute right-0 top-32'>
+                    <div className='absolute lg:right-0 lg:top-32 -bottom-8'>
                         <button className="btn common-animation btn-active btn-neutral text-red-500 shadow-slate-600 shadow-sm text-lg mr-4">Conact Me</button>
                     </div>
                 </div>
@@ -54,10 +54,10 @@ const ServiceCard = () => {
                 <figure><img src={wordpressDesign} className='service-image' alt="Album" /></figure>
                 <div className="card-body w-full relative">
                     <div>
-                        <h2 className="text-4xl font-semibold mb-6 text-white">Web Development</h2>
+                        <h2 className="lg:text-4xl text-2xl font-semibold mb-6 text-white">Web Development</h2>
                         <p className='m-0 p-0 max-w-lg text-lg'>Explain to you how all this mistaken idea of denouncing pleasure born and give you complete account the system.I throw myself down among the tall grass by the stream as Ilie close to the earth.I use to frontend developemt kit javaScript, react js, node js, express js, mongodb.</p>
                     </div>
-                    <div className='absolute right-0 top-32'>
+                    <div className='absolute lg:right-0 lg:top-32 -bottom-8'>
                         <button className="btn common-animation btn-active btn-neutral text-red-500 shadow-slate-600 shadow-sm text-lg mr-4">Conact Me</button>
                     </div>
                 </div>

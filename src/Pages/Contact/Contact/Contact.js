@@ -16,7 +16,7 @@ const Contact = () => {
             {/* contact form  */}
             <div className='hero min-h-screen'>
 
-                <div className='hero-content'>
+                <div className='hero-content lg:flex-row flex-col-reverse'>
 
                     <ContactLeftSide></ContactLeftSide>
 

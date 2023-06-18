@@ -11,7 +11,7 @@ const ContactLeftSide = () => {
     </React.Fragment>
     return (
         <>
-            <div className='max-w-xl mr-4'>
+            <div className='max-w-xl lg:mr-4 mr-0'>
                 {/* contact information  */}
                 <div className="card card-compact w-full bg-stone-950 shadow-slate-900 shadow-sm">
                     <div className='w-full pt-6 px-6 box-border'>
