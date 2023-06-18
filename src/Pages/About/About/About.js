@@ -4,9 +4,9 @@ import AboutMySelf from './AboutMySelf';
 
 const About = () => {
     return (
-        <div className='bg-black w-full pb-16 h-full ml-1'>
+        <div className='bg-black mx-w-full pb-16 h-full ml-1'>
             {/* about form-here */}
-            <div className='flex justify-between p-6'>
+            <div className='flex lg:flex-row flex-col-reverse justify-between p-6'>
                 {/* about mysefl component here  */}
                 <AboutMySelf></AboutMySelf>
             </div>
